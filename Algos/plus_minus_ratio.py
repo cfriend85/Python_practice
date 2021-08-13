@@ -2,7 +2,7 @@ def plusMinus(arr):
     pos = 0
     neg = 0
     zero = 0
-    for i in range(0, len(arr)):
+    for i in range(len(arr)):
         if arr[i] > 0:
             pos += 1
         elif arr[i] < 0:

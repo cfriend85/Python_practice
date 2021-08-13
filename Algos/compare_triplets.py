@@ -1,7 +1,7 @@
 def compareTriplets(a, b):
     alice = 0
     bob = 0
-    for i in range (0, len(b)):
+    for i in range (len(b)):
         if a[i] > b[i]:
             alice += 1
         elif b[i] > a[i]:
